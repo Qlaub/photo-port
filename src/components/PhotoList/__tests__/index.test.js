@@ -6,7 +6,6 @@ import PhotoList from '../';
 afterEach(cleanup);
 
 describe('Photo list is rendering', () => {
-
   it('renders', () => {
     render(<PhotoList />);
   });
