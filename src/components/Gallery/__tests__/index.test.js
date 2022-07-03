@@ -13,7 +13,7 @@ describe('Gallery is rendering', () => {
     render(<Gallery currentCategory={portrait} />);
   });
 
-  it('Matches snapshit', () => {
+  it('Matches snapshot', () => {
     const { asFragment } = render(<Gallery currentCategory={portrait} />);
     expect(asFragment()).toMatchSnapshot()
   });

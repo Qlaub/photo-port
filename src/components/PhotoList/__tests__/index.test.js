@@ -5,13 +5,14 @@ import PhotoList from '../';
 
 afterEach(cleanup);
 
-describe('PhotoList is rendering', () => {
+describe('Photo list is rendering', () => {
+
   it('renders', () => {
     render(<PhotoList />);
   });
 
-  it('renders', () => {
+  it('Matches snapshot', () => {
     const { asFragment } = render(<PhotoList />);
-    expect(asFragment()).toMatchSnapshot;
+    expect(asFragment()).toMatchSnapshot()
   });
 });
