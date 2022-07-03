@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Gallery is rendering Matches snapshit 1`] = `
+exports[`Gallery is rendering Matches snapshot 1`] = `
 <DocumentFragment>
   <section>
     <h1
